@@ -1,17 +1,48 @@
-# Welcome to MkDocs
+# Welcome to Get Remote
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Your Drone Controls
 
-## Commands
+<div class="grid cards" markdown>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+-   :fontawesome-solid-plane:{ .lg .middle } __Flight Path Controls__
 
-## Project layout
+    ---
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    With FlightOps control your drones flight path with real time updates
+
+    [:octicons-arrow-right-24: Flight Controls](http://google.com/){:target="_blank"}
+
+-   :material-camera:{ .lg .middle } __Camera View Controls__
+
+    ---
+
+    Live streamed feed from your drone
+    
+    OPEN LINK IN NEW TAB
+
+    [:octicons-arrow-right-24: Camera View](http://google.com/){:target="_blank"}
+
+-   :material-view-dashboard:{ .lg .middle } __Control Dashboard__
+
+    ---
+
+    Veiw your dashboard to see past flights and results
+
+    OPEN LINK IN CURRENT TAB
+
+    [:octicons-arrow-right-24: Getting started](http://google.com/)
+
+-   :material-wifi:{ .lg .middle } __Contact Us__
+
+    ---
+
+    Need some help? Contact Us!
+
+    LINK TO ANOTHER PAGE 
+
+    [:octicons-arrow-right-24: Help](about.md)
+
+</div>
+
+
+<a href="http://google.com/" target="_blank">Documentation</a> 

@@ -1,5 +1,56 @@
 site_name: Get Remote 
 
+nav: 
+- Home: index.md     #adding pages
+- About: about.md
+- 'Flight Controls': ''
+- 'Camera Controls': ''
+- 'Demo': ('https://google.com'){:target="_blank"}  #This method opens in the tab
+
 theme: 
-  name: material 
-  
+  name: material
+  features: 
+    - header.autohide
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+#theme: 
+#  name: moonstone
+
+#theme: 
+#  name: mkdocs
+#  color_mode: dark
+#  features: 
+#    - navigation.footer
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/company/chartis-remote-sensing-solutions/
+
+copyright: In Partnership with Chartis Remote Sensing Solutions
+
+extra_css: 
+  - stylesheets/extra.css
+
