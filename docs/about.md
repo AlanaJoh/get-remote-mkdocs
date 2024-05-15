@@ -1,12 +1,12 @@
 # About Get Remote
 
-![IMAGE OF BOX](img/entire_box.PNG){ align=center }
+![IMAGE OF BOX](assets/images/entire_box.PNG){ align=center }
 
 ----
 ## Our Team
 <div class="grid cards" markdown>
 
--   ![image of blank](img/blank.png){ align=center }
+-   ![image of blank](assets/images/blank.png){ align=center }
 
     ---
 
@@ -14,7 +14,7 @@
      
     Description 
 
--   ![image of blank](img/blank.png){ align=center }
+-   ![image of blank](assets/images/blank.png){ align=center }
 
     ---
 

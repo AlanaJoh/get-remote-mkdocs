@@ -1,47 +1,36 @@
 site_name: Get Remote 
-
-nav: 
-- Home: index.md     #adding pages
-- About: about.md
-- 'Flight Controls': ''
-- 'Camera Controls': ''
-- 'Demo': ('https://google.com'){:target="_blank"}  #This method opens in the tab
+#site_url: 
 
 theme: 
   name: material
-  features: 
+  custom_dir: overrides
+  features:
     - header.autohide
-
+    - navigation.sections
   palette:
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default 
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
+  # Palette toggle for light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default 
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
 
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
+  # Palette toggle for dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Switch to system preference
 
-#theme: 
-#  name: moonstone
-
-#theme: 
-#  name: mkdocs
-#  color_mode: dark
-#  features: 
-#    - navigation.footer
-
-markdown_extensions: 
-  - attr_list
-  - md_in_html
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+nav: 
+- Home: index.md   #adding pages 
+- Dashboard: dash.md    
+- About: about.md
+- Documentation: 
+    - Setup: doc.md 
+- Controls: 
+  - 'Flight Controls': ''
+  - 'Camera Controls': ''
 
 extra:
   generator: false
@@ -51,6 +40,41 @@ extra:
 
 copyright: In Partnership with Chartis Remote Sensing Solutions
 
-extra_css: 
-  - stylesheets/extra.css
+#extra_css:                        CODE FOR IF YOU WANT TO EDIT THE TEMPLATE A LITTLE   
+#  - assets/stylesheets/extra.css
 
+#extra_javascript:
+#  - javascripts/js/extra.js
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - codehilite
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      # insert a blank space before the character
+      permalink: " ¶"
+
+plugins:
+  - search
