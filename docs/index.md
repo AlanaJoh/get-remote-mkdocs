@@ -1,4 +1,4 @@
 ---
 title: overrides
-template: home.html
+template: landingTemp.html
 ---
