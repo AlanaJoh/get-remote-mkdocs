@@ -28,9 +28,11 @@ nav:
 - About: about.md
 - Documentation: 
     - Setup: doc.md 
+    - Making Missions: mission.md
+    - Trouble Shooting: trouble.md 
 - Controls: 
-  - 'Flight Controls': ''
-  - 'Camera Controls': ''
+  - 'Flight Controls': 'https://chartis-demo.flightops.io:7702/airVehicle-control'
+  - 'Remote Controls': 'https://chartis-demo.flightops.io:3083/login'
 
 extra:
   generator: false
